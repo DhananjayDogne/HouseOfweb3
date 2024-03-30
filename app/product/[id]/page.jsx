@@ -70,9 +70,9 @@ const ProductDetail = ({ params }) => {
                             <FaHeart className={favorited ? "text-red-600 " : "text-gray-400 "} />
                         </motion.div>
                         <motion.div className="p-4">
-                            <h1 className="text-xl font-semibold">{product.title}</h1>
+                            <h1 className="text-xl text-black font-semibold">{product.title}</h1>
                             <p className="text-gray-600">${product.price.toFixed(2)}</p>
-                            <p className="mt-4">{product.description}</p>
+                            <p className="mt-4 text-black">{product.description}</p>
                             <div className="flex justify-between mt-4 m-auto" >
                                 <motion.div
                                     onClick={handleAddToCart}
