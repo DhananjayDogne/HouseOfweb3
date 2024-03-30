@@ -30,7 +30,7 @@ const Products = () => {
 
 
     return (
-        <div className='px-6 h-[100vh]'>
+        <div className='px-6 h-[100vh] text-black'>
             <h1 className='font-bold text-2xl ml-4 my-7'>List of Products :</h1>
             {products.length == 0 && <div className='text-center m-auto'>Loading...</div>}
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-6 p-2">

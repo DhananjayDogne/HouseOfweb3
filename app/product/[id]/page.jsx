@@ -4,9 +4,9 @@
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import { useState, useEffect } from 'react';
-import { FaHeart } from 'react-icons/fa'; 
+import { FaHeart } from 'react-icons/fa';
 
-const ProductDetail = ({params}) => {
+const ProductDetail = ({ params }) => {
     const id = params.id;
     console.log(id);
     const [product, setProduct] = useState(null);
@@ -41,7 +41,7 @@ const ProductDetail = ({params}) => {
     };
 
     return (
-        <div className='w-full min-h-100vh '>
+        <div className='w-full min-h-100vh  text-black'>
             <h1 className='font-bold text-2xl ml-[6rem]   mt-9 mb-5'>Products  Details:</h1>
 
             <div className="relative max-w-3xl mx-auto p-4">
