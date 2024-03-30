@@ -11,8 +11,7 @@ const Products = () => {
     const route = useRouter();
 
     const handleClick = (product) => {
-        console.log(product);
-        route.push(`/product?id=${product.id}`);
+        route.push(`/product/${product.id}`);
     }
     useEffect(() => {
         // Fetch product data from API
