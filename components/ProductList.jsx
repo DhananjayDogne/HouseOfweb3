@@ -46,8 +46,8 @@ const Products = () => {
                                 <Image src={product.image} alt={product.title} layout="fill" objectFit="contain" />
                             </div>
                             <div className="p-4 text-center">
-                                <h2 className="text-lg  font-semibold">{product.title}</h2>
-                                <p className="text-gray-600">${product.price.toFixed(2)}</p>
+                                <h2 className="text-lg text-black font-semibold">{product.title}</h2>
+                                <p className="text-gray-600 text-black">${product.price.toFixed(2)}</p>
                             </div>
                         </motion.div>
                     </div>
